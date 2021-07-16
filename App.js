@@ -4,8 +4,8 @@ import { Header } from "react-native-elements";
 import { createAppContainer } from "react-navigation";
 import { createBottomTabNavigator } from "react-navigation-tabs";
 
-import FacebookScreen from "./Screens/Facebook";
-import InstagramScreen from "./Screens/Instagram";
+import FacebookScreen from "./Facebook";
+import InstagramScreen from "./Instagram";
 
 export default class App extends React.Component {
   render() {
